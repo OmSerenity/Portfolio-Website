@@ -1,0 +1,177 @@
+a:hover {
+  background-color: turquoise;
+}
+
+
+#about a:hover {
+  background-color: turquoise;
+  padding: 35px;
+}
+
+
+#about p {
+  font-family: "taviraj", serif;
+  color: #white;
+  font-size: 9px;
+}
+
+
+.bg-1 {
+  background-color: #90ee90;  /* light green */
+  color: #ffffff; /* white */
+  font-weight: bolder;
+}
+
+
+.bg-2 {
+  background-color: #228b22; /* forest green */
+  color: #ffffff; /* white */
+}
+
+
+.bg-3 {
+  background-color: #f0fff; /* azure  */
+  color: #555555;
+}
+
+
+.bg-4 {
+  background-color: #68228b; /* dark orchid */
+  color: yellow; /* text color for footer */
+}
+
+
+body {
+  margin-top: 65px;
+  font-family: 'proza libre', sans-serif;
+  line-height:  2.0;
+}
+
+
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.fa-smile-o {
+  color: #ffc125; /* goldenrod1 */
+  display: inline-block;
+}
+
+
+.fa-tree {
+  display: inline-block;
+  color: #006400; /* dark-green */
+}
+
+
+.fa-pagelines {
+  display: inline-block;
+  color: green;
+}
+
+
+footer {
+  width: 100%;
+}
+
+
+h1 {
+  font-family: 'libre baskerville', serif;
+  font-weight: bold;
+  color: #4b0082; /* indigo */
+}
+
+
+h2 {
+  font-family: 'trirong', serif;
+  font-weight: bold;
+  color: #483d8b; /* indigo */
+}
+
+
+h3 {
+  font-family: 'rubik', sans-serif;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+
+i .fa {
+  padding: 25px;
+}
+
+
+img {
+  padding: 15px;
+}
+
+
+img#linkedinlogo {
+  height: auto;
+  width: 15%;
+  padding-right: 50px;
+}
+
+
+img#udacitylogo {
+  height: auto;
+  width: 15%;
+}
+
+
+img#githublogo {
+  height: auto;
+  width: 15%;
+  padding-right: 50px;
+}
+
+
+img#waterfall {
+  height: auto;
+  width: 50%;
+}
+
+
+.margin {
+  margin-bottom: 20px;
+}
+
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-family: 'rubik', sans-serif;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+
+.navbar-brand {
+  font-family: "eczar", serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+.navbar-nav  li a:hover {
+  font-family: 'eczar', serif;
+  color: #1abc9c !important;
+}
+
+
+p {
+    font-family: 'rubik', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+#toolkit .fa {
+  padding-right: 160px;
+  font-size: 100px;
+}
