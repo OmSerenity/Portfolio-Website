@@ -10,8 +10,8 @@ a:hover {
 
 
 #about p {
-  font-family: "taviraj", serif;
-  color: #white;
+  font-family: "trirong", serif;
+  color: white;
   font-size: 9px;
 }
 
@@ -30,7 +30,7 @@ a:hover {
 
 
 .bg-3 {
-  background-color: #f0fff; /* azure  */
+  background-color: #f0ffff; /* azure  */
   color: #555555;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 
 body {
   margin-top: 65px;
-  font-family: 'proza libre', sans-serif;
+  font-family: 'rubik', sans-serif;
   line-height:  2.0;
 }
 
@@ -78,7 +78,7 @@ footer {
 
 
 h1 {
-  font-family: 'libre baskerville', serif;
+  font-family: 'trirong', serif;
   font-weight: bold;
   color: #4b0082; /* indigo */
 }
@@ -110,27 +110,27 @@ img {
 
 img#linkedinlogo {
   height: auto;
-  width: 15%;
+  width: 20%;
   padding-right: 50px;
 }
 
 
 img#udacitylogo {
   height: auto;
-  width: 15%;
+  width: 20%;
 }
 
 
 img#githublogo {
   height: auto;
-  width: 15%;
+  width: 20%;
   padding-right: 50px;
 }
 
 
 img#waterfall {
   height: auto;
-  width: 50%;
+  width: 54%;
 }
 
 
@@ -152,14 +152,14 @@ img#waterfall {
 
 
 .navbar-brand {
-  font-family: "eczar", serif;
+  font-family: "trirong", serif;
   font-style: italic;
   font-weight: bold;
 }
 
 
 .navbar-nav  li a:hover {
-  font-family: 'eczar', serif;
+  font-family: 'trirong', serif;
   color: #1abc9c !important;
 }
 
@@ -173,5 +173,5 @@ p {
 
 #toolkit .fa {
   padding-right: 160px;
-  font-size: 100px;
+  font-size: 108px;
 }
