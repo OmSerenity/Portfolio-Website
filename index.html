@@ -12,14 +12,11 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <!--Bootswatch stylesheet for Cerulean color theme -->
 <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css" rel="stylesheet">
-<!-- Unique google font embed code with 10 font families -->
-<link href="https://fonts.googleapis.com/css?family=Rubik:bold,italic,bolditalic" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Trirong:bold,italic,bolditalic" rel="stylesheet">
+<!-- Unique google font embed code with 2 font families -->
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Trirong:400,700,800,800i" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-
 
   <!-- Custom stylesheet link -->
 <link href="css/style.css" rel="stylesheet">
@@ -54,18 +51,25 @@
 <!-- First Container -->
 <div id="about" class="container-fluid bg-1 text-center">
   <h1 class="margin">Serenity</h1>
-  <img id="waterfall" src="images/IcelandWaterfall.jpg"
-  srcset="images/IcelandWaterfall.jpg 1x, images/IcelandWaterfall-2x.jpg 2x, images/IcelandWaterfall-hd.jpg 3x" class="img-responsive center-block" alt="Iceland waterfall">
-  <p>Diego Delso [<a href="http://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3ASeljalandsfoss%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-16%2C_DD_201-203_HDR.JPG">via Wikimedia Commons</a></p>
   <h1>Full-Stack Web Developer</h1>
+  <img id="waterfall" src="images/IcelandWaterfall.jpg" class="img-responsive center-block" alt="Iceland waterfall">
+  <p>Photo credit: Diego Delso</p>
   <br style="margin-bottom: 25px;"/>
+  <div class="row">
+    <div class="col-md-4">
 <!-- add LinkedIn and Github logos & links to my LinkedIn and Github sites -->
-  <a href="https://www.linkedin.com/in/omserenity" target="_blank">
-    <img id="linkedinlogo" src="images/linkedin.png" srcset="images/linkedin.png 1x, images/linkedin-2x.png 2x, images/linkedin-hd.png 3x" class="img-responsive" alt="LinkedIn logo"></a>
-  <a href="https://github.com/omserenity" target="_blank">
-    <img id="githublogo" src="images/octocat.png" class="img-responsive" alt="Github logo"></a>
-  <a href="https://www.udacity.com/" target="_blank">
-    <img id="udacitylogo" srcset="images/UdacityLogo.jpg 1x, images/UdacityLogo-2x.jpg 2x, images/UdacityLogo-hd.jpg 3x" class="img-responsive" alt="Udacity logo"></a>
+      <a href="https://www.linkedin.com/in/omserenity" target="_blank">
+      <img id="linkedinlogo" src="images/linkedin.png" class="img-responsive center-block" alt="LinkedIn logo"></a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://github.com/omserenity" target="_blank">
+      <img id="githublogo" src="images/octocat.png" class="img-responsive center-block" alt="Github logo"></a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.udacity.com/" target="_blank">
+      <img id="udacitylogo" src="images/UdacityLogo.jpg" class="img-responsive center-block" alt="Udacity logo"></a>
+    </div>
+  </div>
 </div>
 
 <!-- Second Container -->
@@ -73,77 +77,82 @@
   <h1 class="margin">TOOLKIT</h1>
   <br>
   <h2>HTML 5 &emsp; CSS3 &emsp; Github &emsp; Git &emsp; Linux &emsp; Javascript &emsp; Python</h2><br>
-  <br>
-
+    <br>
+  <div class="row">
 <!-- Add fontawesome icons to show languages learned with a space in between -->
-  <i class="fa fa-html5 fa-5x fa-fw" style="color: #8B0000;" aria-hidden="true"></i>&nbsp;
-  <i class="fa fa-css3 fa-5x fa-fw" style="color: #000080;" aria-hidden="true"></i>&nbsp;
-  <i class="fa fa-github fa-5x fa-fw" style="color: #68228B;" aria-hidden="true"></i>&nbsp;
-  <i class="fa fa-git fa-5x fa-fw" style="color: #FF8C00;" aria-hidden="true"></i>&nbsp;
-  <i class="fa fa-linux fa-5x fa-fw" style="color: black;" aria-hidden="true"></i>&nbsp;
-  <br style="margin-bottom: 25px;"/>
-  <img srcset="images/js_logo.jpg 1x, images/js_logo-2x.jpg 2x, images/js_logo-hd.jpg 3x" class="img-responsive img-center" style="display:inline" alt="Javascript logo" width="125" height="125">&nbsp;
-  <img srcset="images/python-logo.png 1x, images/js_logo-2x.jpg 2x, images/js_logo-hd.jpg 3x" class="img-responsive img-center" style="display:inline" alt="Python logo" width="250" height="250">
-  <br style="margin-bottom: 25px;"/>
+   <div class="col-md-4">
+     <i class="fa fa-html5 fa-5x fa-fw" aria-hidden="true"></i>&nbsp;
+     <i class="fa fa-css3 fa-5x fa-fw" aria-hidden="true"></i>&nbsp;
+   </div>
+   <div class="col-md-4">
+     <i class="fa fa-github fa-5x fa-fw" aria-hidden="true"></i>&nbsp;
+     <i class="fa fa-git fa-5x fa-fw" aria-hidden="true"></i>&nbsp;
+     <i class="fa fa-linux fa-5x fa-fw" aria-hidden="true"></i>&nbsp;
+   </div>
+   <div class="col-md-4">
+     <img src="images/js_logo.jpg" class="img-responsive img-centered" alt="Javascript logo" width="125" height="125">&nbsp;
+     <img src="images/python-logo.png" class="img-responsive img-centered" alt="Python logo" width="250" height="250">
+   </div>
+ </div>
 </div>
 
 <!-- Third Container (Grid) -->
 <div id="portfolio" class="container-fluid bg-3 text-center">
   <h1 class="margin">First Stop: Front-End & Python</h1><br>
    <div class="row">
-      <div class="col-sm-4">
+      <div class="col-md-4">
         <a href="https://github.com/OmSerenity/dollardollarclub3" target="_blank">
         <h2>Dollar Dollar Club</h2>
         <br style="margin-bottom: 5px;"/>
         <p>No currency was harmed during production of this front-end website, using HTML and CSS</p>
         <br style="margin-bottom: 5px;"/>
-        <img srcset="images/DollarDollarClub.jpg 1x, images/DollarDollarClub-2x.jpg 2x, images/DollarDollarClub-hd.jpg 3x" alt="Dollar Dollar Club website screenshot" style="width:100%; height: 400px" class="img-responsive margin"/> </a>
-    </div>
-    <div class="col-sm-4">
+        <img src="images/DollarDollarClub.jpg" alt="Dollar Dollar Club website" class="img-responsive margin"/> </a>
+      </div>
+     <div class="col-md-4">
         <a href="https://github.com/OmSerenity/MexRest3" target="_blank">
         <h2>Restaurant Website</h2>
         <br style="margin-bottom: 5px;"/>
         <p>Ingredients such as HTML, CSS, & Bootstrap created this delicious Mexican Restaurant website</p>
         <br style="margin-bottom: 5px;"/>
-        <img srcset="images/Mexican_Restaurant_Website.jpg 1x, images/Mexican_Restaurant_Website-2x.jpg 2x, images/Mexican_Restaurant_Website-hd.jpg 3x" alt="Mexican Restaurant website screenshot" style="width:100%; height: 400px" class="img-responsive margin"/> </a>
-    </div>
-    <div class="col-sm-4">
+        <img src="images/Mexican_Restaurant_Website.jpg" alt="Mexican Restaurant website" class="img-responsive margin"/> </a>
+     </div>
+     <div class="col-md-4">
        <a href="https://github.com/OmSerenity/Movie_Trailer_Website" target="_blank">
        <h2>Movie Trailer Website</h2>
        <br style="margin-bottom: 5px;"/>
        <p>Wrangled Python to create this website showcasing favorite movies and their trailers</p>
        <br style="margin-bottom: 5px;"/>
-       <img srcset="images/FavMovieWebsite.jpg 1x, images/FavMovieWebsite-2x.jpg 2x, images/FavMovieWebsite-hd.jpg 3x" alt="Movie Trailer website screenshot" style="width:100%; height: 400px" class="img-responsive margin"/> </a>
-    </div>
+       <img src="images/FavMovieWebsite.jpg" alt="Movie Trailer website" class="img-responsive margin"/> </a>
+     </div>
   </div>
 </div>
 <!-- Fourth Container (Grid) -->
 <div class="container-fluid bg-3 text-center">
   <h1 class="margin">Front-End, Back-End, Where's the Next Adventure?</h1><br>
    <div class="row">
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <a href="https://github.com/OmSerenity/Portfolio-Website" target="_blank">
       <h2>Portfolio Project</h2>
       <br style="margin-bottom: 5px;"/>
       <p>Original showcase of web development projects which utilizes HTML, CSS, & Bootstrap</p>
       <br style="margin-bottom: 5px;"/>
-      <img srcset="images/Portfolio.jpg 1x, images/Portfolio-2x.jpg 2x, images/Portfolio-hd.jpg 3x" alt="Portfolio website screenshot" style="width:100%; height: 400px" class="img-responsive margin"/> </a>
+      <img src="images/Portfolio.jpg" alt="Portfolio website" class="img-responsive margin"/> </a>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <a href="https://github.com/OmSerenity/Logs-Analysis" target="_blank">
       <h2>Logs Analysis Project</h2>
       <br style="margin-bottom: 5px;"/>
       <p>Analyzed data from a web service's logs, using command-line & database skills, while building advanced SQL queries</p>
       <br style="margin-bottom: 5px;"/>
-      <img srcset="images/LogsAnalysis.jpg 1x, images/LogsAnalysis-2x.jpg 2x, images/LogsAnalysis-hd.jpg 3x " class="img-responsive margin" style="width:100%; height: 400px" alt="Logs Analysis Github Screenshot"> </a>
+      <img src="images/LogsAnalysis.jpg" class="img-responsive margin" alt="Logs Analysis Github"> </a>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <a href="https://github.com/OmSerenity/Item-Catalog" target="_blank">
       <h2>Item Catalog </h2>
       <br style="margin-bottom: 5px;"/>
       <p>Amazing app provides list of items within variety of categories with user registration & authentication system</p>
       <br style="margin-bottom: 5px;"/>
-      <img srcset="images/ItemCatalog.jpg 1x, images/ItemCatalog-2x.jpg 2x, images/ItemCatalog-hd.jpg 3x" class="img-responsive margin" style="width:100%; height: 400px" alt="Item Catalog Github Screenshot"></a>
+      <img src="images/ItemCatalog.jpg" class="img-responsive margin" alt="Item Catalog Github"></a>
     </div>
    </div>
 </div>
@@ -153,7 +162,6 @@
   <p>Have a great day!</p>
   <p>&copy; OmSerenity <i class="fa fa-tree fa-lg" aria-hidden="true"></i>
   <i class="fa fa-pagelines fa-lg" aria-hidden="true"></i> 2017</p>
-</footer>
-
+ </footer>
 </body>
 </html>
