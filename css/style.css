@@ -1,160 +1,151 @@
-a:hover {
-  background-color: turquoise;
-}
-
-#about a:hover {
-  background-color: turquoise;
-  padding: 25px;
-  opacity: 0.7;
-}
-
 #about p {
-  font-family: "trirong", serif;
-  color: white;
-  font-size: 9px;
+    font-family: "trirong", serif;
+    color: white;
+    font-size: 9px;
+    float: right;
 }
 
 .bg-1 {
-  background-color: #90ee90;  /* light green */
-  color: #ffffff; /* white */
-  font-weight: bolder;
+    background-color: #90ee90; /* light green */
+    color: #ffffff; /* white */
+    font-weight: bolder;
 }
 
 .bg-2 {
-  background-color: #228b22; /* forest green */
-  color: #ffffff; /* white */
+    background-color: #228b22; /* forest green */
+    color: #ffffff; /* white */
 }
 
 .bg-3 {
-  background-color: #f0ffff; /* azure  */
-  color: #555555;
+    background-color: #f0ffff; /* azure  */
+    color: #555555;
 }
 
 .bg-4 {
-  background-color: #68228b; /* dark orchid */
-  color: yellow; /* text color for footer */
+    background-color: #68228b; /* dark orchid */
+    color: yellow; /* text color for footer */
 }
 
 body {
-  margin-top: 65px;
-  font-family: 'rubik', sans-serif;
-  line-height:  2.0;
+    margin-top: 65px;
+    font-family: 'rubik', sans-serif;
+    line-height: 2.0;
 }
 
 .container-fluid {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .fa-css3 {
-  color: #000080;
+    color: #000080;
 }
 
 .fa-git {
-  color: #FF8C00;
+    color: #FF8C00;
 }
 
 .fa-github {
-  color: #68228B;
+    color: #68228B;
 }
 
 .fa-linux {
-  color: black;
+    color: black;
 }
 
 .fa-smile-o {
-  color: #ffc125; /* goldenrod1 */
-  display: inline-block;
+    color: #ffc125; /* goldenrod1 */
+    display: inline-block;
 }
 
 .fa-html5 {
-  color: #8B0000;
+    color: #8B0000;
 }
 
 .fa-tree {
-  display: inline-block;
-  color: #006400; /* dark-green */
+    display: inline-block;
+    color: #006400; /* dark-green */
 }
 
 .fa-pagelines {
-  display: inline-block;
-  color: green;
+    display: inline-block;
+    color: green;
 }
 
 footer {
-  width: 100%;
+    width: 100%;
 }
 
 h1 {
-  font-family: 'trirong', serif;
-  font-weight: bold;
-  color: #4b0082; /* indigo */
+    font-family: 'trirong', serif;
+    font-weight: bold;
+    color: #4b0082; /* indigo */
 }
 
 h2 {
-  font-family: 'trirong', serif;
-  font-weight: bold;
-  color: #483d8b; /* indigo */
+    font-family: 'trirong', serif;
+    font-weight: bold;
+    color: #483d8b; /* indigo */
 }
 
 h3 {
-  font-family: 'rubik', sans-serif;
-  font-weight: bold;
-  color: #4b0082;
+    font-family: 'rubik', sans-serif;
+    font-weight: bold;
+    color: #4b0082;
 }
 
 i .fa {
-  padding: 25px;
+    padding: 25px;
 }
 
 img {
-  padding: 15px;
+    padding: 15px;
 }
 
 img#linkedinlogo {
-  height: auto;
-  width: auto;
+    height: auto;
+    width: auto;
 }
 
 img#udacitylogo {
-  height: auto;
-  width: 54%;
+    height: auto;
+    width: 54%;
 }
 
 img#githublogo {
-  height: auto;
-  width: 54%;
+    height: auto;
+    width: 54%;
 }
 
 img#waterfall {
-  height: auto;
-  width: auto;
+    height: auto;
+    width: auto;
 }
 
 .margin {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-family: 'rubik', sans-serif;
-  font-size: 12px;
-  letter-spacing: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-family: 'rubik', sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
 }
 
 .navbar-brand {
-  font-family: "trirong", serif;
-  font-style: italic;
-  font-weight: bold;
+    font-family: "trirong", serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
-.navbar-nav  li a:hover {
-  font-family: 'trirong', serif;
-  color: #1abc9c !important;
+.navbar-nav li a:hover {
+    font-family: 'trirong', serif;
+    color: #1abc9c !important;
 }
 
 p {
@@ -169,16 +160,16 @@ p {
 }
 
 #toolkit {
-  padding-top: 40px;
-  padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 #toolkit.fa {
-  padding-right: 10px;
-  font-size: 108px;
+    padding-right: 10px;
+    font-size: 108px;
 }
 
 #toolkit .img-responsive {
-  padding-right: 10px;
-  display: inline-block;
+    padding-right: 10px;
+    display: inline-block;
 }
